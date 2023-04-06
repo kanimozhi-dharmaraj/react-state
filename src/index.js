@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+//import Lifecycle from './Lifecycle';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Main from './Main.js'
+//import Task from './Task';
+//import Main from './Main.js'
+import Task2 from './Task2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Main />
+ <Task2 />
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
